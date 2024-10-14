@@ -1,11 +1,13 @@
-<header>
-    <img src="{{ relURL "images/logo.svg" }}" alt="logo"> 
-    <h1>{{ .Site.Title}}</h1>
+<header class="rounded-header">
+    <img style="width:90px; height:90px; position: sticky; top:35px" src="{{ relURL "images/logop.png" }}" alt="logo"> 
+    <h1 style="text-align:center; padding: 30px">{{ .Site.Title}}</h1>
     <nav>
         <ul>
             <li><a href="{{ relURL "" }}">Home</a></li>
-            <li><a href="{{ relURL "about" }}">Sobre</a></li>
-            <li><a href="{{ relURL "tutorials" }}">Tutoriais</a></li>
+            <li><a href="{{ relURL "about" }}">Origens</a></li>
+            <li><a href="{{ relURL "legado" }}">Legado</a></li>
+            <li><a href="{{ relURL "tutorials" }}">Aparições</a></li>
+            
         </ul>
     </nav>
 </header>

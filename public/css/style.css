@@ -20,4 +20,39 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
   }
+
+/* Apply the translucent background to the container */
+.paragraph-group {
+  background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+  padding: 10px; /* Add padding inside the container */
+  border-radius: 8px; /* Optional: Rounded corners */
+  margin-bottom: 10px; /* Add spacing below the group */
+}
+
+/* Style individual paragraphs to maintain spacing inside the container */
+.paragraph-group p {
+  margin: 10px 0; /* Vertical spacing between paragraphs */
+}
+/* Header style */
+.rounded-header {
+  width: 100%; /* Make the header span the full width of the screen */
+  background-color: hsl(49, 100%, 50%); /* Example background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 20px; /* Rounded corners */
+  text-align: center; /* Center the text horizontally */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Optional: Style the header text */
+.rounded-header h1 {
+  color: white; /* Text color */
+  margin: 0; /* Remove default margin */
+  font-size: 2em; /* Adjust font size */
+  font-family: Arial, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
